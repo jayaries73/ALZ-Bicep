@@ -21,6 +21,8 @@ resource resRoleDefinition 'Microsoft.Authorization/roleDefinitions@2022-04-01' 
       {
         actions: [
           '*'
+
+          'Microsoft.Authorization/locks/*'
         ]
         notActions: [
           'Microsoft.Authorization/*/write'
