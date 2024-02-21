@@ -50,6 +50,15 @@
     "parAllowHubVPNGatewayTransit": {
       "value": true
     },
+    "parVirtualHubConnectionPrefix": {
+      "value": ""
+    },
+    "parVirtualHubConnectionSuffix": {
+      "value": "-vhc"
+    },
+    "parEnableInternetSecurity": {
+      "value": false
+    },
     "parTags": {
       "value": {
         "Environment": "Live"
@@ -57,6 +66,36 @@
     },
     "parTelemetryOptOut": {
       "value": false
+    },
+    "parGlobalResourceLock": {
+      "value": {
+        "kind": "None",
+        "notes": "This lock was created by the ALZ Bicep Hub Peered Spoke Orchestration Networking Module."
+      }
+    },
+    "parResourceGroupLock": {
+      "value": {
+        "kind": "None",
+        "notes": "This lock was created by the ALZ Bicep Hub Peered Spoke Orchestration Networking Module."
+      }
+    },
+    "parSpokeNetworkLock": {
+      "value": {
+        "kind": "None",
+        "notes": "This lock was created by the ALZ Bicep Hub Peered Spoke Orchestration Networking Module."
+      }
+    },
+    "parSpokeRouteTableLock": {
+      "value": {
+        "kind": "None",
+        "notes": "This lock was created by the ALZ Bicep Hub Peered Spoke Orchestration Networking Module."
+      }
+    },
+    "parPrivateDnsZoneVirtualNetworkLinkLock": {
+      "value": {
+        "kind": "None",
+        "notes": "This lock was created by the ALZ Bicep Hub Peered Spoke Orchestration Networking Module."
+      }
     }
   }
 }
